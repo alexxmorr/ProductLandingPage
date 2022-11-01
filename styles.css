@@ -1,0 +1,351 @@
+/* .color1 {color: #0d0024;}
+.color2 {color: #3c0026;}
+.color3 {color: #7a4347;}
+.color4 {color: #ad8d7f;}
+.color5 {color: #c4baa8;}
+GOOD CSS PALETTE */
+
+html {
+    background-color: #7a4347;
+    overflow-x: hidden;
+  }
+  
+  #Brand {
+    color: #c4baa8;
+    margin-left: -430px;
+  }
+  
+  #Logo {
+    height: 100px;
+    margin-left: 20px;
+  }
+  
+  main {
+    align-items: center;
+    padding-top: 50px;
+    color: #c4baa8;
+    font-family: "Arial Black";
+    text-align: center;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #0d0024;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    font-family: "Arial Black";
+    z-index: 1;
+  }
+  
+  nav {
+    width: 50%;
+    z-index: 3;
+  }
+  
+  nav > ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  nav > ul > li > a {
+    text-decoration: none;
+    color: #c4baa8;
+    font-family: "Arial Black";
+  }
+  
+  nav > ul > li:hover {
+    background-color: #ad8d7f;
+    padding: 3px;
+    cursor: pointer;
+  }
+  
+  nav > ul > li > a:hover {
+    color: #0d0024;
+  }
+  
+  #mission-statement {
+    font-family: Sans-serif;
+    font-size: 23px;
+    text-align: left;
+    margin-top: -30px;
+  }
+  
+  #mission-statement::first-letter {
+    font-size: 6rem;
+    font-family: Times;
+    color: #3c0026;
+  }
+  
+  #Testimonial {
+    border-top: #0d0024 solid;
+    display: flex;
+    padding-top: 10px;
+  }
+  #Joe {
+    height: 100px;
+    border-radius: 50px;
+  }
+  
+  iframe {
+    height: 300px;
+    width: 600px;
+  }
+  #Video-Wrap {
+    border: white solid;
+    background-color: #7a4347;
+  }
+  
+  #vid-cap {
+    text-align: center;
+    font-size: 15px;
+  }
+  
+  #Wicker {
+    text-decoration: none;
+    color: #0d0024;
+  }
+  
+  #model-title {
+    margin-bottom: -5px;
+  }
+  
+  #Grids {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    overflow: hidden;
+    gap: 16px;
+    justify-content: center;
+    padding: 20px;
+    z-index: 2;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .guitar-info {
+    font-family: Times;
+    font-weight: bold;
+  }
+  
+  #Dreadnought {
+    border: solid white;
+    border-radius: 10px;
+    padding: 5px;
+    transition: transform 0.2s;
+    max-width: 300px;
+  }
+  
+  #Dreadnought:hover {
+    transform: scale(1.06);
+  }
+  
+  #Dreadnought > img {
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+  }
+  
+  #grand-concert {
+    border: solid white;
+    border-radius: 10px;
+    padding: 5px;
+    transition: transform 0.2s;
+    max-width: 300px;
+  }
+  
+  #grand-concert > img {
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+  }
+  
+  #grand-concert:hover {
+    transform: scale(1.06);
+  }
+  
+  #parlor {
+    border-radius: 10px;
+    border: solid white;
+    padding: 5px;
+    transition: transform 0.2s;
+    max-width: 300px;
+  }
+  
+  #parlor:hover {
+    transform: scale(1.06);
+  }
+  
+  #parlor > img {
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+  }
+  
+  .button-select {
+    height: 30px;
+    font-family: "Arial";
+    background-color: #c4baa8;
+    border: 0;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .button-select:hover,
+  button-select:focus {
+    cursor: pointer;
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+  }
+  
+  #form-container {
+    padding-bottom: 50px;
+    margin-top: -20px;
+  }
+  
+  #email {
+    background-color: #ad8d7f;
+    border: none;
+    height: 30px;
+    width: 500px;
+    color: #0d0024;
+    font-family: "Arial black";
+    border-radius: 3px;
+  }
+  
+  #submit {
+    color: #0d0024;
+    background-color: #ad8d7f;
+    border: solid #0d0024;
+    height: 35px;
+    font-family: "Arial Black";
+    border-radius: 3px;
+    transition: 0.6s;
+    transform: transform 0.2s;
+  }
+  
+  #submit:hover {
+    cursor: pointer;
+    background-color: #0d0024;
+    color: #ad8d7f;
+    transform: scale(1.09);
+  }
+  
+  footer {
+    border: transparent;
+    padding: 5px;
+    font-family: serif;
+    font-weight: bold;
+    background-color: #0d0024;
+    border-radius: 5px;
+  }
+  
+  #social-cap {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  .social-icons {
+    font-size: 25px;
+    margin-top: -20px;
+  }
+  
+  #copyright {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    margin-top: -15px;
+  }
+  
+  @media screen and (max-width: 900px) {
+    #header {
+      height: 75px;
+    }
+  
+    #Brand {
+      margin-left: 10px;
+      font-size: 30px;
+    }
+    #Logo {
+      height: 100px;
+      width: 100px;
+    }
+  
+    .nav-link {
+      font-size: 10px;
+      margin-left: -200px;
+    }
+  
+    nav > ul {
+      flex-direction: column;
+      margin-left: 200px;
+    }
+  
+    nav > ul > li > a:hover {
+      background-color: #ad8d7f;
+      padding: 3px;
+      cursor: pointer;
+    }
+  
+    #mission-statement {
+      margin-top: -40px;
+    }
+  
+    #Joe {
+      margin-top: 70px;
+      margin-left: -30px;
+      height: 120px;
+    }
+  
+    #Joe-quote {
+      text-align: left;
+      margin-left: 10px;
+      word-break: break-even;
+    }
+  
+    iframe {
+      margin-left: -30px;
+      width: 115%;
+    }
+  
+    #Grids {
+      margin-left: -20px;
+    }
+  
+    #Dreadnought,
+    #grand-concert,
+    #parlor {
+      margin-bottom: 20px;
+    }
+  
+    #form-container {
+      margin-top: -50px;
+    }
+  
+    #email {
+      margin-bottom: 15px;
+    }
+  
+    #submit {
+      transform: transform 0.2s;
+    }
+  
+    #submit:hover {
+      transform: scale(1.2);
+    }
+  
+    footer {
+      height: 80px;
+    }
+  
+    #copyright {
+      font-size: 12px;
+      margin-top: 3px;
+    }
+  }
+  
